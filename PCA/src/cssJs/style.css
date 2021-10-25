@@ -1,0 +1,133 @@
+
+/*
+    GENERALE
+*/
+body, html{
+    text-align:center;
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+    scroll-behavior: smooth;  
+    scrollbar-width: none;
+    width:auto;
+    color:black;
+    
+}
+
+.container-fluid, .row, main{
+    justify-content:center;
+    width:100%;
+    padding:0;
+    margin:0;
+    margin-bottom:1vh;
+}
+
+
+.pageModuleListEnseignant{
+    height:45vh;
+}
+
+.pageModuleListEnseignant img{
+    height:2vh;
+    width:2vh;
+}
+
+
+li{
+    font-size:2vh;
+    margin-left:2vh;
+    text-align:left;
+}
+
+h2, h3{
+    font-size:3vh;
+    padding-bottom:3vh;
+}
+
+.list-group-item-action {
+    text-align:left;
+    margin-left:2vh;
+    width:80%;
+    overflow: hidden;
+}
+
+
+/* Mise en Forme Formulaire */ 
+
+label {
+    float: left;
+    width:20%;
+}
+
+span, .cadre {
+    display: block;
+    overflow: hidden;
+    padding: 0 4px 0 6px
+}
+input {
+    width: 60%
+}
+
+.cadre{
+    margin-top:5vh;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    border-radius: 15px 15px 15px 15px;
+    border : outset 2px #59BFFF;
+    padding-top:2vh; padding-bottom:2vh;
+    height:80vh;
+}
+
+.list, .list-group, #listexport {
+    overflow: scroll;
+    height:80%;
+    scroll-behavior: smooth;  
+    scrollbar-width: none;
+    width:90%;
+}
+
+
+
+
+/*
+    NAVBAR
+*/
+.navbar button {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.navbar button:hover {
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	background-color:#ffffff;
+}
+
+.navbar button:active {
+	position:relative;
+	top:1px;
+}
+
+    
+header, nav  {
+    height:10vh;
+    background-color:black;
+}
+
+header h1, nav h1 {
+    font-size:4vh;
+    margin-top:2vh;
+    color:white;
+}
+
+
